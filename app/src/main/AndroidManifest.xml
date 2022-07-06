@@ -10,6 +10,10 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.NavigationExample">
         <activity
+            android:name=".NavigationActivity"
+            android:label="Bottom Navigation"
+            android:theme="@style/Theme.NavigationExample.NoActionBar"/>
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
