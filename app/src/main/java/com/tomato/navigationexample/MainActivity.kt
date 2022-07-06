@@ -41,7 +41,9 @@ class MainActivity : AppCompatActivity() {
             startActivity(Intent(this, NavigationActivity::class.java))
         }
 
-
+        findViewById<Button>(R.id.btnDrawerNavigate).setOnClickListener { view ->
+            startActivity(Intent(this, DrawerActivity::class.java))
+        }
 
     }
 }

@@ -16,10 +16,10 @@
 
     <style name="Theme.Tomato.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
 
-<!--    <style name="Theme.NavigationExample.NoActionBar">-->
-<!--        <item name="windowActionBar">false</item>-->
-<!--        <item name="windowNoTitle">true</item>-->
-<!--    </style>-->
+    <!--    <style name="Theme.NavigationExample.NoActionBar">-->
+    <!--        <item name="windowActionBar">false</item>-->
+    <!--        <item name="windowNoTitle">true</item>-->
+    <!--    </style>-->
 
     <style name="Theme.NavigationExample.NoActionBar">
         <item name="windowActionBar">false</item>
@@ -27,4 +27,8 @@
     </style>
 
     <style name="Theme.Tomato.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="Theme.NavigationExample.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="Theme.NavigationExample.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
 </resources>
